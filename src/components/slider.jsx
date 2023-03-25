@@ -4,7 +4,7 @@ function Slider() {
   return (
     <>
       <div className="container slider bg-gray-200 flex items-center justify-center">
-        <div className="left w-1/2 mx-14 ">
+        <div className="left w-1/2 mx-14 flex flex-col">
           <p className="text-sm text-pink-600">
             Best Furniture For Your Castle....
           </p>
