@@ -1,7 +1,7 @@
 export function Topbar() {
 	return (
-		<>
-			<nav className="mx-36 text-white flex justify-between h-24 items-center">
+		<div className="w-4/5">
+			<nav className="text-white flex justify-between h-24 items-center">
 				<span className="text-xl flex items-center mx-3 font-bold text-slate-900">
 					Techways
 				</span>
@@ -12,6 +12,6 @@ export function Topbar() {
 					<li className="cursor-pointer text-slate-900">Contact Us</li>
 				</ul>
 			</nav>
-		</>
+		</div>
 	);
 }
