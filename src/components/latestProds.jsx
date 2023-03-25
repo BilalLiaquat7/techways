@@ -1,7 +1,7 @@
-function latestProds() {
+function LatestProds() {
   return (
     <>
-      <p>
+      <p >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod totam
         commodi expedita quas necessitatibus blanditiis exercitationem ratione
         dolore nesciunt. Odit quam, error debitis explicabo architecto
@@ -11,4 +11,4 @@ function latestProds() {
   );
 }
 
-export default latestProds;
+export default LatestProds;
