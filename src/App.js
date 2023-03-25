@@ -4,6 +4,7 @@ import Slider from "./components/slider";
 import { Topbar } from "./components/Topbar";
 import sliderArr from "./components/sliderArr";
 import { LatestProducts } from "./components/LatestProducts";
+import { GeneralInformation } from "./components/generalInformation";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Topbar />
       <Slider sliderArray={sliderArr} />
       <LatestProducts />
+	  <GeneralInformation/>
     </div>
   );
 }
