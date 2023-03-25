@@ -1,17 +1,17 @@
 export function Topbar() {
-  return (
-    <>
-      <nav className="bg-gray-100 text-white flex justify-between">
-        <span className="text-xl flex items-center mx-3 font-bold text-gray-700">
-          Techways
-        </span>
-        <ul className="px-28 py-6 flex space-x-3 justify-end">
-          <li className="cursor-pointer text-gray-700">Home</li>
-          <li className="cursor-pointer text-gray-700">About</li>
-          <li className="cursor-pointer text-gray-700">Catalogue</li>
-          <li className="cursor-pointer text-gray-700">Contact Us</li>
-        </ul>
-      </nav>
-    </>
-  );
+	return (
+		<>
+			<nav className="mx-36 text-white flex justify-between h-24 items-center">
+				<span className="text-xl flex items-center mx-3 font-bold text-slate-900">
+					Techways
+				</span>
+				<ul className=" flex space-x-12 justify-end ">
+					<li className="cursor-pointer text-slate-900">Home</li>
+					<li className="cursor-pointer text-slate-900">About</li>
+					<li className="cursor-pointer text-slate-900">Catalogue</li>
+					<li className="cursor-pointer text-slate-900">Contact Us</li>
+				</ul>
+			</nav>
+		</>
+	);
 }
