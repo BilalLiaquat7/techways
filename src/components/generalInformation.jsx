@@ -57,12 +57,11 @@ export function GeneralInformation() {
           placeholder="Subject *"
         />
         <textarea
-        rows="4"
-          className="px-4 py-4  border border-gray-200 rounded-lg outline-blue-200"
-          type="text"
+          className="p-4 border border-gray-200 outline-blue-200 rounded-lg"
+          rows="5"
           placeholder="Type your message *"
-        ></textarea>
-        <button className=" w-fit bg-pink-600 px-12 py-3 my-4 rounded-md text-white hover:text-white hover:bg-pink-700">
+        />
+        <button className=" w-fit bg-pink-600 px-12 py-3 my-6 rounded-md text-white hover:text-white hover:bg-pink-700">
           Send Mail
         </button>
       </div>
