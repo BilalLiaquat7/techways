@@ -1,7 +1,7 @@
 export function GeneralInformation() {
   return (
-    <div className="bg-white w-4/5 flex flex-row my-14">
-      <div className="left flex flex-col gap-8">
+    <div className="bg-white w-4/5 flex flex-row my-14 gap-16">
+      <div className="left flex flex-col gap-8 w-1/2">
         <h1 className="text-3xl text-blue-900">General Information</h1>
         <div className="space-y-4">
           <p></p>
