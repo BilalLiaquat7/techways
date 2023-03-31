@@ -3,7 +3,7 @@ function Slider({ sliderArray }) {
 		return (
 			<div
 				key={slide.id}
-				className="w-screen bg-purple-100 flex justify-center h-full"
+				className="w-fit bg-purple-100 flex justify-center h-full"
 			>
 				<div className="w-4/5 flex justify-between align-center">
 					<div className="left w-1/2 flex flex-col justify-center space-y-4 ">

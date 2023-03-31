@@ -6,14 +6,7 @@ export function LatestProducts() {
       <h1 className="text-4xl my-14 font-bold text-blue-900 flex justify-center">
         Latest Products
       </h1>
-      <div className="flex flex-wrap justify-between gap-3">
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-      </div>
+      <div className="flex flex-wrap justify-between gap-3"></div>
     </div>
   );
 }
