@@ -11,7 +11,7 @@ export function Footer() {
 					<h4>Sadiq Abad Rawalpindi</h4>
 					<div className=" flex gap-8">
 						<BsFacebook color="blue" size={28} />
-						<BsLinkedin color="d" size={28} />
+						<BsLinkedin color="blue" size={28} />
 						<BsInstagram color="blue" size={28} />
 					</div>
 				</div>
