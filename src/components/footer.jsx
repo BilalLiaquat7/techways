@@ -3,7 +3,7 @@ import { BsFacebook, BsLinkedin, BsInstagram } from "react-icons/bs";
 export function Footer() {
   return (
     <div className="w-fit flex flex-col  items-center  bg-purple-100 h-full">
-      <div className="w-4/5 py-12 flex flex-row">
+      <div className="w-11/12 py-12 flex flex-row">
         <div className="left w-1/2 flex gap-8 flex-col">
           <h1 className="text-2xl text-pink-600 font-bold">TECHWAYS</h1>
           <h4>Sadiq Abad Rawalpindi</h4>

@@ -5,7 +5,7 @@ function Slider({ sliderArray }) {
 				key={slide.id}
 				className="w-fit bg-purple-100 flex justify-center h-full"
 			>
-				<div className="w-4/5 flex justify-between align-center">
+				<div className="w-11/12 flex justify-between align-center">
 					<div className="left w-1/2 flex flex-col justify-center space-y-4 ">
 						<p className="text-sm text-pink-600">{slide.tag}</p>
 						<h1 className="text-5xl ">{slide.title}</h1>
