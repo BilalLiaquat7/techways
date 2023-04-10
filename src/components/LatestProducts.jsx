@@ -45,19 +45,19 @@ export function LatestProducts() {
       </div>
       <div className="MainOptions flex flex-row h-2/6 my-20">
         <div className="flex-1 h-2/5 justify-center relative text-center">
-          <img className="filter contrast-50" src={kitchen} alt="" />
+          <img className="filter contrast-75" src={kitchen} alt="" />
           <p class="absolute text-xl text-white top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
             KITCHEN
           </p>
         </div>
         <div className="flex-1 h-2/5 justify-center relative text-center">
-          <img className="filter contrast-50" src={bathroom} alt="" />
+          <img className="filter contrast-75" src={bathroom} alt="" />
           <p class="absolute text-xl text-white top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
             BATHROOM
           </p>
         </div>
         <div className="flex-1 h-2/5 justify-center relative text-center">
-          <img className="filter contrast-50" src={living_room} alt="" />
+          <img className="filter contrast-75" src={living_room} alt="" />
           <p class="absolute text-xl text-white top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
             LIVING ROOM
           </p>
