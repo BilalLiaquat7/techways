@@ -8,9 +8,9 @@ export function Footer() {
           <h1 className="text-2xl text-pink-600 font-bold">TECHWAYS</h1>
           <h4>Sadiq Abad Rawalpindi</h4>
           <div className=" flex gap-8">
-            <BsFacebook className="cursor-pointer" color="blue" size={28} />
-            <BsLinkedin className="cursor-pointer" color="d" size={28} />
-            <BsInstagram className="cursor-pointer" color="blue" size={28} />
+            <BsFacebook className="cursor-pointer" color="#3b5998" size={28} />
+            <BsLinkedin className="cursor-pointer" color="#0072b1" size={28} />
+            <BsInstagram className="cursor-pointer" color="#d62976" size={28} />
           </div>
         </div>
         <div className="right w-1/2 flex flex-row justify-between items-start">

@@ -7,6 +7,7 @@ export function LatestProducts() {
         Latest Products
       </h1>
       <div className="flex flex-wrap justify-between gap-3"></div>
+      <Product />
     </div>
   );
 }

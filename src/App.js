@@ -6,6 +6,7 @@ import { Home } from "./pages/home.jsx";
 import { About } from "./pages/about";
 import { Catalogue } from "./pages/catalogue";
 import { ContactUs } from "./pages/contactUs";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/catalogue" element={<Catalogue />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
+      <Footer />
     </div>
   );
 }
