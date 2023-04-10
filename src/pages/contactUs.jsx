@@ -1,7 +1,10 @@
+import { Contact } from "../components/contact";
+import { Footer } from "../components/footer";
 export function ContactUs() {
   return (
     <>
-      <h1>Contact us Page is Under Construction</h1>
+      <Contact />
+      <Footer />
     </>
   );
 }
