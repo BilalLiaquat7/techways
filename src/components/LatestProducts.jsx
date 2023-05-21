@@ -44,19 +44,19 @@ export function LatestProducts() {
         </div>
       </div>
       <div className="MainOptions h-2/6 my-20 gap-6 grid md:grid-cols-3">
-        <div className="flex-1 h-2/5 justify-center relative text-center hover:scale-105 duration-300">
+        <div className="flex-1 h-2/5 justify-center relative text-center my-2 hover:scale-105 duration-300">
           <img className="filter contrast-75" src={kitchen} alt="" />
           <p class="absolute text-xl text-white top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
             KITCHEN
           </p>
         </div>
-        <div className="flex-1 h-2/5 justify-center relative text-center hover:scale-105 duration-300">
+        <div className="flex-1 h-2/5 justify-center relative text-center my-2 hover:scale-105 duration-300">
           <img className="filter contrast-75" src={bathroom} alt="" />
           <p class="absolute text-xl text-white top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
             BATHROOM
           </p>
         </div>
-        <div className="flex-1 h-2/5 justify-center relative text-center hover:scale-105 duration-300">
+        <div className="flex-1 h-2/5 justify-center relative text-center my-2 hover:scale-105 duration-300">
           <img className="filter contrast-75" src={living_room} alt="" />
           <p class="absolute text-xl text-white top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
             LIVING ROOM
