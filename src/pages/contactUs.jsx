@@ -4,7 +4,6 @@ export function ContactUs() {
   return (
     <>
       <Contact />
-      <Footer />
     </>
   );
 }

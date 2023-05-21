@@ -3,7 +3,7 @@ import { BsFacebook, BsLinkedin, BsInstagram } from "react-icons/bs";
 export function Footer() {
   return (
     <div className="w-fit flex flex-col  items-center  bg-purple-100 h-full">
-      <div className="w-11/12 py-12 flex flex-row">
+      <div className="w-11/12 py-12 grid md:grid-cols-2">
         <div className="left w-1/2 flex gap-8 flex-col">
           <h1 className="text-2xl text-pink-600 font-bold">TECHWAYS</h1>
           <h4>Sadiq Abad Rawalpindi</h4>
@@ -13,7 +13,7 @@ export function Footer() {
             <BsInstagram className="cursor-pointer" color="#d62976" size={28} />
           </div>
         </div>
-        <div className="right w-1/2 flex flex-row justify-between items-start">
+        <div className="right flex flex-row justify-between items-start">
           <div className="flex flex-col justify-center">
             <h1 className="text-xl text-gray-800 font-bold">Shop</h1>
             <span className="py-1"></span>
