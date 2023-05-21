@@ -15,10 +15,10 @@ export function Topbar() {
             <Link to="/about">About</Link>
           </li>
           <li className="cursor-pointer text-slate-900 hover:text-pink-600">
-          <Link to="/catalogue">Catalogue</Link>
+            <Link to="/catalogue">Catalogue</Link>
           </li>
           <li className="cursor-pointer text-slate-900 hover:text-pink-600">
-          <Link to="/contact-us">Contact Us</Link>
+            <Link to="/contact-us">Contact Us</Link>
           </li>
         </ul>
       </nav>

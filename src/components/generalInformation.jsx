@@ -1,7 +1,7 @@
 export function GeneralInformation() {
   return (
-    <div className="bg-white w-11/12 flex flex-row my-14 gap-16">
-      <div className="left flex flex-col gap-8 w-1/2">
+    <div className="bg-white w-11/12 grid md:grid-cols-2 my-14 gap-4">
+      <div className="left grid grid-cols-1 gap-8">
         <h1 className="text-3xl text-blue-900">General Information</h1>
         <div className="space-y-4">
           <p></p>
@@ -44,7 +44,7 @@ export function GeneralInformation() {
           </p>
         </div>
       </div>
-      <div className="right flex flex-col bg-gray-100 rounded-md px-12 w-1/2">
+      <div className="right flex flex-col bg-gray-100 rounded-md px-12">
         <h1 className=" py-12 text-2xl text-blue-900">Ask a Question</h1>
         <input
           className="px-4 h-12 my-4 border border-gray-200 rounded-lg outline-blue-200"
